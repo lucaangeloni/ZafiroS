@@ -1,15 +1,15 @@
 {
-    "display": 
+    "display":
     {
-       "icon": 
+       "icon":
        {
            "item" "minecraft:beacon"
        },
-       "title": "Ms.Beacon", 
-       "description": "consigue 10 beacons",
+       "title": "Ms.Beacon",
+       "description": "Consigue 10 beacons",
        "frame": "challenge",
        "show_toast": true,
-       "announce_to_chat": true 
+       "announce_to_chat": true
     },
     "parents": "zafirosadvancements:zafiros/unanuevaaventura",
     "rewars": {
@@ -17,11 +17,11 @@
     },
     "criterie": {
         "item": {
-            "trigger": "minecraft:inventory_changed",   
-            "conditions": 
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
             [
                 {
-                
+
                     "item": "beacon",
                     "count": {
                         "min": 10
