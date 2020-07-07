@@ -1,0 +1,50 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bone"
+      },
+       "title": "Amante de los animales", 
+       "description": "domestica todos los animales posibles",
+       "frame": "challenge",
+       "show_toast": true,
+       "announce_to_chat": true 
+    },
+    "parents": "zafirosadvancements:zafiros/animalia",
+    "rewards": 
+    {
+        "experience": 0
+    },
+    "criteria": 
+    {
+        "item": 
+        {
+            "trigger": "minecraft:tame_animal",   
+            "conditions": 
+            [
+               { 
+                    "entity": "minecraft:donkey",
+                    "entity": "minecraft:horse",
+                    "entity": "minecraft:skeleton_horse",
+                    "entity": "minecraft:pig",
+                    "entity": "minecraft:rabiit", 
+                    "entity": "minecraft:cat",
+                    "entity": "minecraft:parrot",
+                    "entity": "minecraft:mule",
+                    "entity": "minecraft:ocelot",
+                    "entity": "minecraft:sheep",
+                    "entity": "minecraft:chicken",
+                    "entity": "minecraft:turtle",
+                    "entity": "minecraft:cow",
+                    "entity": "minecraft:mooshroom",
+                    "entity": "minecraft:fox",
+                    "entity": "minecraft:bee",
+                    "entity": "minecraft:llama",
+                    "entity": "minecraft:wolf",
+                    "entity": "minecraft:polar_bear",
+                    "entity": "minecraft:panda"
+
+                }
+            ]
+        }
+    }
+}
